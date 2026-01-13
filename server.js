@@ -9,7 +9,7 @@ const io = new Server(server);
 
 // ၁။ MongoDB Atlas Connection String
 // <password> နေရာမှာ သင်သတ်မှတ်ခဲ့တဲ့ Database User Password ကို အစားထိုးပါ
-const mongoURI = 'mongodb+srv://Arkar_212:<arkar212>@cluster0.tgqvhvu.mongodb.net/telegramDB?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = 'mongodb+srv://Arkar_212:arkar12345@cluster0.tgqvhvu.mongodb.net/telegramDB?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(mongoURI)
     .then(() => console.log("Cloud DB Connected Successfully"))
